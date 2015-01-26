@@ -1,0 +1,14 @@
+<h3> Please be patient as we fill out our inventory.</h3>
+
+<ul>
+<% @items.each do |item| %>
+	<li>
+		<a href="items/<%= item.id %>">
+			<span><strong> <%= item.category %> </strong>- </span>
+			<span> <%= item.name %> - </span>	
+			<span>$<%= item.price %> </span>
+		</a>	
+	</li>
+<% end %>	
+</ul>
+
