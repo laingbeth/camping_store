@@ -1,0 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700&effect=distressed-wood);
+
+body {
+    background-color: #d0e4fe;
+}
+
+p {
+    font-family: "georgia";
+    font-size: 20px;
+}
+h1, h3 {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700; 
+	text-align: center;
+}
+
+h1, h3 {
+    color: purple;
+    text-align: center;
+    !important;
+}

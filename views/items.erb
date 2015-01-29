@@ -9,6 +9,26 @@
 			<span>$<%= item.price %> </span>
 		</a>	
 	</li>
+<body>
+
+
+
+
+
 <% end %>	
+	<table>
+		<% @items.each do |item| %>
+		<tr>
+
+			<td><%= item.category %> </td>
+			<td><%= item.name %> </td>	
+			<td>$<%= item.price %> </td>
+			<td><a href="items/<%= item.id %>"> See Details</a></td>	
+			</tr>
+		</style>
+		<% end %>	
+	</table>
+
+
 </ul>
 
